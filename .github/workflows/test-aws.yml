@@ -44,4 +44,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           printenv | grep -i aws
-          aws ec2 describe-instances
+          aws ec2 describe-instances --region=eu-north-1
